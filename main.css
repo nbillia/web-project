@@ -6,6 +6,12 @@ li{
     list-style-type: none;
 }
 
+.publicar a{
+    background-color: beige;
+    padding: 50px;
+    
+}
+
 .logo{
     width:20%;
     margin:20px 10px;
@@ -47,25 +53,34 @@ h2{
     list-style: none;
 }
 
+
+
 .botonera li a{
     display: block;
     padding:10px;
+    border-radius:10%;
     border: 1px dashed black;
     text-decoration: none;
     padding-left: 30px;
     padding-right: 30px;
     margin-top:20px;
-    background-color: white;
+    background-color: black;
     margin-right:5px;
-    color:blue;
+    color:white;
 }
 
-.botonera ul{
+
+
+.botonera > ul{
     
     display:flex;
     text-align: center;
+    margin-top:50px;
+    width:1000px;
     
 }
+
+
 
 .bloque-meme{
     max-width:1000px;
@@ -86,9 +101,18 @@ h2{
 }
 
 .ver-mas{
-    color:red;
+    color:white;
+    height: 35px;
+    background-color: black;
     margin-left: 10px;
     text-decoration: none;
+    text-align: center;
+    padding: 5px 5px;
+    margin-right: 5px;
+    font-size: 12px;
+   
+    display:flex;
+    margin-bottom:10px;
 }
 
 a:hover{
@@ -199,5 +223,36 @@ footer{
     width:25%;
     text-align: center;
 }
+
+
+.botonera .submenu ul li{
+    opacity:0;
+}
+
+.submenu{
+    position: absolute;
+    top:120px;
+    
+    margin:0;
+    padding:0 0;
+    width:135px;
+    opacity: 0;
+    
+}
+
+.submenu li a{
+    background-color:blue;
+    margin:0;
+    border-radius: 0;
+}
+
+.submenu:hover {
+    opacity:1;
+}
+
+
+
+
+
 
 
