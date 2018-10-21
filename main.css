@@ -251,6 +251,55 @@ footer{
     opacity:1;
 }
 
+.pagination{
+    display:flex;
+    margin-left:450px;
+    margin-bottom:40px;
+    font-size: 20px;
+    
+}
+
+.pagination a{
+    margin-left:10px;
+    text-decoration: none;
+    color:black;
+
+}
+
+.pagination a:hover{
+    background-color:black;
+    color:white;
+    text-decoration: underline;
+}
+
+.next{
+    border-left: 2px solid black;
+    padding-left:10px;
+}
+
+.formulario{
+    width:100%;
+}
+
+.form{
+    margin-top:60px;
+    margin-bottom:60px;
+    width:60%
+}
+
+.foto-form{
+   
+    position: absolute;
+    bottom:10px;
+    left:600px;
+    width:30%;
+    border-radius:20%;
+
+}
+
+.submit{
+    margin-left:30px;
+}
 
 
 

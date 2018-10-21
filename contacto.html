@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Memes Argentos: todo lo que nos reimos los argentinos</title>
+    <title>Contacto | Memes Argentos</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="img/logo.JPG" rel="shortcut icon">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
@@ -41,36 +41,49 @@
 
     <main>
        <header>
-           <h1>Los mejores memes de Argentina</h1>
-           <p class="slogan">Los memes más graciosos que representan nuestra cultura memera</p>
+           <h1>Contactanos</h1>
+           <p class="slogan">Escribinos para consultar sobre memes o para ser colaborador de la principal cultura memera de Argentina</p>
        </header>
-       
-       <h2>Memes Macri</h2>
-       <section class="bloque-meme">
-           
-           <article class="meme" ><img class="foto-meme" src="img/macri1.jpg" alt="macri1"></article>
-           <article class="meme" ><img class="foto-meme" src="img/macri2.jpg" alt="macri2"></article>
-           <article class="meme" ><img class="foto-meme" src="img/macri3.jpg" alt="macri3"></article>
-           <article class="meme" ><img class="foto-meme" src="img/macri4.jpg" alt="macri4"></article>
-           <a href="#" class="ver-mas">Ver mas memes de Macri</a>
-       
-        </section>
 
-        <h2>Memes Higuain</h2>
-        <section class="bloque-meme">
+       <div class="formulario">
+
+       <section class="form">
+
+        <ul>
+            <li>Nombre <input type="text" placeholder="Ingrese su nombre" required></li> <!--Placeholder para el texto gris de fondo y required para que sea campo obligatorio-->
+            <br>
+            <li>Edad <input type="number" max="70" min="18" required></li>
+            <br>
+            <li>Mail <input type="email"></li>
+            <br>
             
-            <article class="meme" ><img class="foto-meme" src="img/higuain1.jpg" alt="higuain1"></article>
-            <article class="meme" ><img class="foto-meme" src="img/higuain2.jpg" alt="higuain2"></article>
-            <article class="meme" ><img class="foto-meme" src="img/higuain3.jpg" alt="higuain3"></article>
-            <article class="meme" ><img class="foto-meme" src="img/higuain4.jpg" alt="higuain4"></article>
-            <a href="#" class="ver-mas">Ver mas memes de Higuain</a></article>
-        </section>
-        
-       <div class="mail">
-            <h3>Suscribite al newslettter de memes</h3>
-        <p><input type="email" placeholder="Dejanos tu mail" class="newsletter-form_email">
-            <input type="submit" class="newsletter-form_submit"></p>
+            <li>Fecha <input type="date"> 
+            <br>
+            <br>
+            <li>Comentarios
+             <textarea></textarea></li>
+             </ul>
+             <label>
+                 <br>
+                 <br>
+
+            <div class="submit">     
+             
+            <input type="submit" value="Enviar">
+            
+            
+            <input type="reset" value="Limpiar"> <!--Limpiar campos-->
+
+            <img class="foto-form" src="img/higuain-form.jpg" alt="higuain-form">
+
+              </div>
+
         </div>
+            
+
+       </section>
+       
+       
         
 
     </main>
